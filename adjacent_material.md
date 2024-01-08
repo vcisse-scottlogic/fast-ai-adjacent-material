@@ -1,8 +1,10 @@
 # Fast AI Study Group
 
 As part of an internal study group aimed at getting a good overview of
-AI and machine learning (ML), I conducted a deep dive into the world of
-Jeremy Howard and [fast.ai](https://course.fast.ai/).
+artificial intelligence (AI) and machine learning (ML), we conducted a
+deep dive into the world of [fast.ai](https://course.fast.ai/).
+
+## What is fast.ai ?
 
 Simply defined, fast.ai is a deep learning Python library that is
 primarily used for adding higher-level functionality in standard deep
@@ -62,6 +64,8 @@ course also provides us with the inner workings of different models and
 thus widens our technical horizon with new AI-related concepts. Some of
 these concepts are not easy to grasp at first glance.
 
+## Our experience
+
 It is preferable to practice after watching a course. For our practice
 we entered a Kaggle competition ([Spaceship
 Titanic](https://www.kaggle.com/c/spaceship-titanic)); some of us
@@ -74,19 +78,14 @@ These parts would require more than one attempt to fully comprehend them
 and some in the group thought it was -- sometimes - difficult to follow
 Jeremy Howard's teaching style.
 
-That is why we think that additional aids (other external online
-courses) are required to give more detail. Looking at core concepts from
-multiple perspectives is generally a crucial point in the learning
-process.
-
-We are proposing a non-exhaustive list of adjacent material that we
-believe will help in fully understanding the fast.ai course provided by
-Jeremy Howard.
+Looking at core concepts from multiple perspectives is generally a crucial
+point in the learning process. Therefore, we are sharing the list of
+additional material that we found helpful in fully understanding the fast.ai
+course.
 
 ## Linear Regression & Random Forest
 
--   Introduction to Machine Learning with Python (Programming with Mosh)
-    -- Beginner level
+#### Introduction to Machine Learning with Python - beginner level
 
 This course first introduces the different steps involved in a ML
 project and the popular Python libraries used in ML. It then uses
@@ -102,7 +101,7 @@ Anaconda Distribution to work with Jupyter Notebook. You can just
 register with [Kaggle](https://www.kaggle.com/) and create then run your
 Jupyter Notebooks there.
 
--   Build your first machine learning model in Python
+#### Build your first machine learning model in Python
 
 The exercise in this course resemble that of the course above but it
 goes a little bit deeper into the different ML models (Linear
@@ -111,7 +110,7 @@ Regression, Random Forest) on a quantitative data.
 [Build your first machine learning model in
 Python](https://www.youtube.com/watch?v=29ZQ3TDGgRQ)
 
--   Build models from scratch in Python
+#### Build models from scratch in Python
 
 The courses above make use of the implementations of decision trees,
 linear regression and random forest already provided in the
@@ -133,13 +132,13 @@ Python](https://www.youtube.com/watch?v=ltXSoduiVwY)
 
 ## Maths
 
-Some of the lessons explained by Jeremy Howard involve lots of maths.
+Some of the lessons explained in the fast.ai course involve lots of maths.
 Those not proficient in maths would probably be terrified by some of
 them. Thankfully there are a lot of online channels that can help. If
 you want to revisit maths and other related concepts (like derivatives,
-integrals, etc) we found the 3Blue1Brown channel very helpful.
+integrals, etc.) we found the 3Blue1Brown channel very helpful.
 
-For example you can revisit the essence of calculus here:
+For example, you can revisit the essence of calculus here:
 
 [3Blue1Brown - Calculus - Visual introductions to the core ideas of
 derivatives, integrals and
@@ -149,12 +148,11 @@ You do not necessarily have to watch all of these maths lessons.
 
 ## Neural Networks and related concepts
 
-Apart from maths, the 3Blue1Brown channel offers great visual
-presentations and explanations of key neural networks concepts. In my
-opinion, the channel offers a better understanding of neural networks. I
-highly recommend their presentations, the quality is just incredible!
+#### 3Blue1Brown
 
--   3Blue1Brown
+Apart from maths, the 3Blue1Brown channel offers great visual
+presentations and explanations of key neural networks concepts. I
+highly recommend their presentations, the quality is just incredible!
 
 [But what is a neural network? \| Chapter 1, Deep
 learning](https://www.youtube.com/watch?v=aircAruvnKk)
@@ -174,7 +172,7 @@ convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA)
 [Convolutions \| Why X+Y in probability is a beautiful
 mess](https://www.youtube.com/watch?v=IaSGqQa5O-M)
 
--   How to Create a Neural Network (and Train it to Identify Doodles)
+#### How to Create a Neural Network (and Train it to Identify Doodles)
 
 This course explores how neural networks learn by programming one from
 scratch in C\#, and then attempting to teach it to recognize various
@@ -186,14 +184,17 @@ Doodles)](https://www.youtube.com/watch?v=hfMk-kjRv4c)
 
 ## Stable Diffusion
 
+#### How Stable Diffusion works
+
 In addition to Jeremy Howard's explanation we found that it was worth
 giving the below course a try. It expresses in different words -- and
 examples - the process of image generation with the same core concepts
-introduced by Jeremy Howard (convolutional layer, U-Nets, autoencoders,
-etc).
+(convolutional layer, U-Nets, autoencoders, etc).
 
 [How Stable Diffusion Works (AI Image
 Generation)](https://www.youtube.com/watch?v=sFztPP9qPRc)
+
+#### DiffEdit technique
 
 Some of us worked on the Stable Diffusion model via the DiffEdit
 implementation. The following are some of the papers we found very
@@ -231,3 +232,27 @@ Challenge](https://www.youtube.com/watch?v=Souzjv6WfrY)
 
 [Building a ML Text to Image App with Stable Diffusion in 15 Minutes \|
 Coding Challenge](https://www.youtube.com/watch?v=7xc0Fs3fpCg)
+
+## Conclusion
+
+The fast.ai course is a great introduction to the world of AI and ML. It
+is a dense course, covering lots of concepts and models, which requires
+some re-watching and additional material to fully grasp - some of which
+we presented here.
+
+When we started the study group, my knowledge of AI and ML was very limited.
+Of course, as a developer, I had heard about - and used - chatbots (ChatGPT,
+Bard); I had used GitHub Copilot and found it amazing at "guessing" the next
+line of code. But I had no idea how those apps worked. Now, after the
+insights I got from the fast.ai course and other online material, I know that
+they are based on a concept called _neural networks_. This was one of many
+eye-openers for me. I am hoping that you get the same insights as I did.
+
+Needless to say that we thoroughly enjoyed the course and we hope that you
+will too! As previously mentioned, we recommend that you practice after
+watching the course. [Kaggle](https://www.kaggle.com/) and
+[Colab](https://colab.research.google.com/) are great platforms to write
+AI code. The [Hugging Face](https://huggingface.co/) platform provides
+the means to collaborate with the AI community - if you want to.
+
+Thanks for reading!
