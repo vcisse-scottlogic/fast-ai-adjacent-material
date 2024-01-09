@@ -74,9 +74,7 @@ practiced the Stable Diffusion model with the DiffEdit implementation
 AI](https://blog.scottlogic.com/2023/12/13/diffedit.html)).
 
 Some parts of the course (in Part 2) are very in dept and challenging.
-These parts would require more than one attempt to fully comprehend them
-and some in the group thought it was -- sometimes - difficult to follow
-Jeremy Howard's teaching style.
+These parts would require more than one attempt to fully comprehend them.
 
 Looking at core concepts from multiple perspectives is generally a crucial
 point in the learning process. Therefore, we are sharing the list of
@@ -186,7 +184,7 @@ Doodles)](https://www.youtube.com/watch?v=hfMk-kjRv4c)
 
 #### How Stable Diffusion works
 
-In addition to Jeremy Howard's explanation we found that it was worth
+In addition to the fast.ai course we found that it was worth
 giving the below course a try. It expresses in different words -- and
 examples - the process of image generation with the same core concepts
 (convolutional layer, U-Nets, autoencoders, etc).
